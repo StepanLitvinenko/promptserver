@@ -1,0 +1,42 @@
+Act as an expert C++ software engineer and code quality analyst. Perform a comprehensive analysis of the following C++ codebase with emphasis on three pillars:
+
+**1. Technical Code Analysis**  
+- Identify syntax errors, memory leaks, undefined behaviors, and potential race conditions  
+- Detect security vulnerabilities (buffer overflows, uninitialized variables, improper pointer use)  
+- Check for standards compliance (C++17/20 best practices, RAII principles, move semantics)  
+- Analyze resource management (file handles, memory allocation, smart pointer usage)  
+- Flag performance bottlenecks (unnecessary copies, loop inefficiencies, cache misses)  
+
+**2. Code Quality Review**  
+- Evaluate architecture/design patterns (OOP principles, SOLID compliance, dependency management)  
+- Assess code smells (duplicated code, God objects, circular dependencies)  
+- Review error handling (exception safety, error propagation, logging)  
+- Verify testing practices (testability of design, mocking strategies, assertion quality)  
+- Check documentation (API docs, Doxygen compatibility, inline comments quality)  
+
+**3. Test Coverage Analysis**  
+- Map test cases to code functionality (show uncovered code paths)  
+- Calculate estimated coverage metrics (branch/line/function coverage)  
+- Identify critical untested paths (error conditions, edge cases, boundary values)  
+- Evaluate test quality (flaky tests, assertion density, setup/teardown reliability)  
+- Suggest additional test scenarios (fuzzing cases, performance tests, integration scenarios)  
+
+**SOURCE_CODE**
+
+**TESTS**
+
+**Output Format Requirements:**  
+1. **Technical Report** structured as:  
+   - Static Analysis Findings (table format: Severity | Line | Issue | Recommendation)  
+   - Code Quality Assessment (1-10 score with bullet-point justification)  
+   - Coverage Breakdown (visual percentage bars + highlighted uncovered critical paths)  
+
+2. **Optimization Recommendations**:  
+   - Top 3 priority fixes (security-critical issues first)  
+   - Refactoring suggestions (with before/after code examples)  
+   - Test improvement plan (specific new test cases to add)  
+
+3. **Final Verdict**:  
+   - Overall code health assessment (1-5 scale)  
+   - Risk assessment summary  
+   - Maintenance difficulty prediction  

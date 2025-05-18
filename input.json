@@ -1,0 +1,11 @@
+{
+  "source_code_files": {
+    "/home/stepan/work/development/qmain/repo_qmain/libs/optimizer/requestconvering/onestreamconverter/include/onestreamconverter/onestreamconverter.h": "",
+    "/home/stepan/work/development/qmain/repo_qmain/libs/optimizer/requestconvering/onestreamconverter/include/onestreamconverter/settings.h": "",
+    "/home/stepan/work/development/qmain/repo_qmain/libs/optimizer/requestconvering/onestreamconverter/lib/onestreamconverter.cpp": ""
+  },
+  "test_code_files": {
+    "/home/stepan/work/development/qmain/repo_qmain/libs/optimizer/requestconvering/onestreamconverter/test/test_onestreamconverter.cpp": ""
+  },
+  "prompt": "prompt.txt"
+}
